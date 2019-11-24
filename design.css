@@ -1,0 +1,1883 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+	background-color:#FEF6E1;
+	font-family: 'Varela Round', sans-serif;
+}
+#containerImg{
+	display:flex;
+	flex-diretcion:row;
+	width: 100%;
+	justify-content:space-between;
+}
+.colunaFlex{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+
+.colunaFlex_cards
+{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+.imgComidas{
+	width: 100%;
+	padding:0% 12%;
+}
+.sushi{
+	width:100%;
+}
+.containerCom{
+	width:40%;
+}
+
+#containerImg_cards
+{
+display:flex;
+	flex-diretcion:row;
+	width: 100%;
+	justify-content:space-between;	
+}
+
+
+.contexto_pagina
+{
+	margin-top:120px;
+	margin-left:0px;
+}
+
+div.saiba_mais
+{
+	font-size: 25px;
+	text-align:center;
+	letter-spacing:5px;
+	padding:115px;
+	
+}
+@media screen and (max-width: 800px) {
+ div.saiba_mais
+{
+	font-size: 15px;
+
+}
+}
+
+.bloquinho 
+{
+	list-style: none;
+	width:100%;
+	justify-content:space-between;
+	align-itens:center;
+	font-style:italic;	
+}
+
+.bloquinho li
+{
+	font-size:29px;
+	display:inline-flex;
+	padding:60px 9%;
+}
+@media screen and (max-width: 1250px) {
+ .bloquinho li
+{
+	font-size:26px;
+	display:inline-flex;
+	padding:75px 9%;
+}
+}
+@media screen and (max-width: 750px) {
+ .bloquinho li
+{
+	font-size:23px;
+	display:inline-flex;
+	padding:75px 9%;
+}
+}
+@media screen and (max-width: 450px) {
+ .bloquinho li
+{
+	font-size:20px;
+	display:inline-flex;
+	padding:75px 9%;
+}
+}
+@media screen and (max-width: 250px) {
+ .bloquinho li
+{
+	font-size:17px;
+	display:inline-flex;
+	padding:75px 9%;
+}
+}
+.bloquinho a
+{ 
+	background-color:#C3B9DE;
+	color:white;
+	padding:30px 60px;
+}
+@media screen and (max-width: 1250px) {
+.bloquinho a
+{ 
+	background-color:#C3B9DE;
+	color:white;
+	padding:25px 50px;
+}
+}
+@media screen and (max-width: 750px) {
+.bloquinho a
+{ 
+	background-color:#C3B9DE;
+	color:white;
+	padding:20px 40px;
+}
+}
+@media screen and (max-width: 450px) {
+.bloquinho a
+{ 
+	background-color:#C3B9DE;
+	color:white;
+	padding:15px 30px;
+}
+}
+@media screen and (max-width: 250px) {
+.bloquinho a
+{ 
+	background-color:#C3B9DE;
+	color:white;
+	padding:10px 20px;
+}
+}
+.rosa
+{
+	background-color:#FFE3D1;
+}
+
+.row {
+	width:60%;
+	margin-left:20%;
+    margin-right:20%;
+}
+
+.quem_somos
+{
+	color:#9B5D68;
+	text-decoration:none;
+}
+
+.nomes_comidas
+{
+	color:black;
+	text-decoration:none;
+	font-size:25px;
+	letter-spacing:8px;
+}
+@media screen and (max-width: 1250px) {
+.nomes_comidas
+{
+	color:black;
+	text-decoration:none;
+	font-size:20px;
+	letter-spacing:7px;
+}
+}
+@media screen and (max-width: 750px) {
+.nomes_comidas
+{
+	color:black;
+	text-decoration:none;
+	font-size:15px;
+	letter-spacing:6px;
+}
+}
+@media screen and (max-width: 450px) {
+.nomes_comidas
+{
+	color:black;
+	text-decoration:none;
+	font-size:10px;
+	letter-spacing:4px;
+}
+}
+@media screen and (max-width: 250px) {
+.nomes_comidas
+{
+	color:black;
+	text-decoration:none;
+	font-size:5px;
+	letter-spacing:2px;
+}
+}
+
+.nomes_comidas_principal
+{
+	font-size:30px;
+	letter-spacing:30px;
+	text-align:center;
+	margin-top:90px;
+}
+@media screen and (max-width: 1250px) {
+.nomes_comidas_principal
+{
+	font-size:25px;
+	letter-spacing:30px;
+	text-align:center;
+	margin-top:90px;
+}
+}
+@media screen and (max-width: 750px) {
+.nomes_comidas_principal
+{
+	font-size:20px;
+	letter-spacing:30px;
+	text-align:center;
+	margin-top:90px;
+}
+}
+@media screen and (max-width: 450px) {
+.nomes_comidas_principal
+{
+	font-size:15px;
+	letter-spacing:30px;
+	text-align:center;
+	margin-top:90px;
+}
+}
+@media screen and (max-width: 250px) {
+.nomes_comidas_principal
+{
+	font-size:10px;
+	letter-spacing:30px;
+	text-align:center;
+	margin-top:90px;
+}
+}
+.titulo_faixa
+{
+	justify-content:space-between;
+	font-size:80px;
+	letter-spacing:60px;
+	width:100%;
+	height:230px;
+    text-align:center;	
+	padding-top:80px;
+	font-style:italic;	
+}
+@media screen and (max-width: 1250px) {
+.titulo_faixa
+{
+	justify-content:space-between;
+	font-size:45px;
+	letter-spacing:60px;
+	width:100%;
+	height:200px;
+    text-align:center;	
+	padding-top:80px;
+	font-style:italic;
+}
+}
+@media screen and (max-width: 750px) {
+.titulo_faixa
+{
+	justify-content:space-between;
+	font-size:40px;
+	letter-spacing:45px;
+	width:100%;
+	height:170px;
+    text-align:center;	
+	padding-top:108px;
+	font-style:italic;
+}
+}
+@media screen and (max-width: 450px) {
+.titulo_faixa
+{
+	justify-content:space-between;
+	font-size:30px;
+	letter-spacing:15px;
+	width:100%;
+	height:140px;
+    text-align:center;	
+	padding-top:108px;
+	font-style:italic;
+}
+}
+@media screen and (max-width: 250px) {
+.titulo_faixa
+{
+	justify-content:space-between;
+	font-size:20px;
+	letter-spacing:9px;
+	width:100%;
+	height:110px;
+    text-align:center;	
+	padding-top:20px;
+	font-style:italic;
+}
+}
+
+.azul_claro
+{
+	background-color:#D0E9E5;
+}
+
+.imagem_da_direita
+{
+	margin-left:30%;
+}
+
+.float_left
+{
+	float:left;
+}
+.textos
+{
+	font-size:20px;
+	margin-left:5%;
+	margin-right:5%;
+	letter-spacing:4px;
+	line-height:50px;
+	text-align:center;
+}
+@media screen and (max-width: 1250px) {
+.textos
+{
+	font-size:18px;
+	margin-left:5%;
+	margin-right:5%;
+	letter-spacing:4px;
+	line-height:40px;
+	text-align:center;
+}
+}
+@media screen and (max-width: 750px) {
+.textos
+{
+	font-size:16px;
+	margin-left:5%;
+	margin-right:5%;
+	letter-spacing:4px;
+	line-height:35px;
+	text-align:center;
+}
+}
+@media screen and (max-width: 450px) {
+.textos
+{
+	font-size:14px;
+	margin-left:5%;
+	margin-right:5%;
+	letter-spacing:4px;
+	line-height:30px;
+	text-align:center;
+}
+}
+@media screen and (max-width: 250px) {
+.textos
+{
+	font-size:12px;
+	margin-left:5%;
+	margin-right:5%;
+	letter-spacing:4px;
+	line-height:23px;
+	text-align:center;
+}
+}
+.textos_comidas
+{
+	font-size:20px;
+	letter-spacing:4px;
+	text-align:center;
+	line-height:50px;
+}
+@media screen and (max-width: 1250px) {
+.textos_comidas
+{
+	font-size:18px;
+	letter-spacing:4px;
+	text-align:center;
+	line-height:40px;
+}
+}
+
+@media screen and (max-width: 750px) {
+.textos_comidas
+{
+	font-size:16px;
+	letter-spacing:4px;
+	text-align:center;
+	line-height:35px;
+}
+}
+@media screen and (max-width: 450px) {
+.textos_comidas
+{
+	font-size:14px;
+	letter-spacing:4px;
+	text-align:center;
+	line-height:30px;
+}
+}
+
+@media screen and (max-width: 250px) {
+.textos_comidas
+{
+	font-size:12px;
+	letter-spacing:3px;
+	text-align:center;
+	line-height:23px;
+}
+}
+
+.imagens_restaurantes
+{
+	text-align:center;
+}
+
+.verde_claro
+{
+	background-color:#D7F3C0;
+}
+
+
+.mini_frase
+{
+	font-size:20px;
+	background-color:#9B5D68;
+	color:white;
+	height:124px;
+	width:100%;
+	position:relative;
+	bottom:0px;
+	padding-top:40px;
+	float:left;
+	text-align:center;
+}
+@media screen and (max-width: 1250px) {
+.mini_frase
+{
+	font-size:16px;
+	background-color:#9B5D68;
+	color:white;
+	height:124px;
+	width:100%;
+	position:relative;
+	bottom:0px;
+	padding-top:40px;
+	float:left;
+	text-align:center;
+}
+}
+@media screen and (max-width: 750px) {
+.mini_frase
+{
+	font-size:12px;
+	background-color:#9B5D68;
+	color:white;
+	height:124px;
+	width:100%;
+	position:relative;
+	bottom:0px;
+	padding-top:40px;
+	float:left;
+	text-align:center;
+}
+}
+@media screen and (max-width: 450px) {
+.mini_frase
+{
+	font-size:8px;
+	background-color:#9B5D68;
+	color:white;
+	height:124px;
+	width:100%;
+	position:relative;
+	bottom:0px;
+	padding-top:40px;
+	float:left;
+	text-align:center;
+}
+}
+@media screen and (max-width: 250px) {
+.mini_frase
+{
+	font-size:4px;
+	background-color:#9B5D68;
+	color:white;
+	height:124px;
+	width:100%;
+	position:relative;
+	bottom:0px;
+	padding-top:40px;
+	float:left;
+	text-align:center;
+}
+}
+
+.roxo_claro
+{
+	background-color:#D9D1F1;
+}
+
+
+.tabela_comidas
+{
+ 	margin:5% 8%
+}
+
+.tabela_comidas td
+{
+	width: 50%;
+	text-align:center;
+	padding-bottom:50px;
+}
+.imagem_principal
+{
+	text-align:center;
+}
+
+.imagem_icone
+{
+	text-align: center;
+	width:100%;
+}
+
+.quem_ilustra
+{
+	text-align:center;
+	font-size: 40px;
+	letter-spacing:35px;
+	padding-top:78px;
+	width:100%;	
+	font-style:italic;
+
+}
+@media screen and (max-width: 1250px) {
+.quem_ilustra
+{
+	text-align:center;
+	font-size: 35px;
+	letter-spacing:35px;
+	padding-top:78px;
+	width:100%;	
+	font-style:italic;
+
+}
+}
+@media screen and (max-width: 750px) {
+.quem_ilustra
+{
+	text-align:center;
+	font-size: 30px;
+	letter-spacing:35px;
+	padding-top:78px;
+	width:100%;	
+	font-style:italic;
+
+}
+}
+@media screen and (max-width: 450px) {
+.quem_ilustra
+{
+	text-align:center;
+	font-size: 25px;
+	letter-spacing:35px;
+	padding-top:78px;
+	width:100%;	
+	font-style:italic;
+
+}
+}
+@media screen and (max-width: 250px) {
+.quem_ilustra
+{
+	text-align:center;
+	font-size: 20px;
+	letter-spacing:35px;
+	padding-top:78px;
+	width:100%;	
+	font-style:italic;
+
+}
+}
+.linha
+{
+	text-align:center;
+	width:100%;
+	padding-top:1%;	
+}
+.foto_perfil
+{
+	text-align:center;
+	width:100%;
+	padding-top:3.5%;	
+}
+
+.img_comidas_principais
+{
+	text-align:center;
+	width:30%;
+	padding-top:3.5%;
+}
+
+.img_restaurantes
+{
+		text-align:center;
+	width:40%;
+	padding-top:3.5%;
+}
+.img_restaurante_dois
+{
+	text-align:center;
+	width:30%;
+	padding-top:3.5%;
+}
+
+
+
+
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+	margin-left:350px;
+	margin-top:50px;
+	
+}
+
+
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+ z-index:0;
+
+}
+
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+	
+}
+
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;	
+}
+
+
+.flip-card-back {
+  background-color: #E2B4BC;
+  color: #262626;
+  transform: rotateY(180deg);
+	
+}
+
+.cardinho
+{
+	width:300px;
+	height:300px;
+}
+
+.cor{
+	background-color:#E2B4BC;
+}
+
+.card_saber_mais
+{
+	background-color:#E2B4BC;
+	font-size:13px;
+}
+.card_direito
+{
+	margin-right:350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.topnav {
+	position:fixed;
+	width:100%;
+  overflow: hidden;
+  background-color:#FEF6E1;
+  display:flex;
+  justify-content:space-between;
+  flex-flow:row wrap;
+	top:0px;
+  	box-shadow: 5px 10px 8px #DCDAD3;
+	z-index:1;
+
+
+}
+#menu{
+	padding-top:1.5%;
+	margin-right:5%;
+	font-family:'Varela Round', sans-serif;
+	
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #9B5D68;
+  text-align: center;
+  padding: 14px 60px;
+  text-decoration: none;
+  font-size: 28px;
+}
+
+.topnav a:hover {
+  color: lightpink;
+}
+
+#buscar
+{
+	font-size:20px;
+	text-decoration:none;
+	color: #9B5D68;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+@media screen and (max-width: 1250px) {
+#buscar
+{
+	font-size:18px;
+	text-decoration:none;
+	color: #9B5D68;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+
+}
+}
+@media screen and (max-width: 750px) {
+#buscar
+{
+	font-size:16px;
+	text-decoration:none;
+	color: #9B5D68;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+
+}
+}
+@media screen and (max-width: 450px) {
+#buscar
+{
+	font-size:14px;
+	text-decoration:none;
+	color: #9B5D68;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+
+}
+}
+@media screen and (max-width: 250px) {
+#buscar
+{
+	font-size:12px;
+	text-decoration:none;
+	color: #9B5D68;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+
+}
+}
+.cabecalho_baixo
+{
+	font-size:20px;
+	text-decoration:none;
+	color: #9B5D68;
+	padding: 0px 60px;
+}
+@media screen and (max-width: 1250px) {
+.cabecalho_baixo
+{
+font-size:18px;
+	text-decoration:none;
+	color: #9B5D68;
+	padding: 0px 60px;
+
+}
+}
+@media screen and (max-width: 750px) {
+.cabecalho_baixo
+{
+font-size:16px;
+	text-decoration:none;
+	color: #9B5D68;
+	padding: 0px 60px;
+
+}
+}
+@media screen and (max-width: 450px) {
+.cabecalho_baixo
+{
+font-size:14px;
+	text-decoration:none;
+	color: #9B5D68;
+	padding: 0px 60px;
+
+}
+}
+@media screen and (max-width: 250px) {
+.cabecalho_baixo
+{
+font-size:12px;
+	text-decoration:none;
+	color: #9B5D68;
+	padding: 0px 60px;
+
+}
+}
+#footer
+{
+	padding-top:60px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+.active img{
+	height:90px;
+	margin-top:1%;
+}
+.redes
+{
+	padding: 80px 20px;
+}
+
+#redes_sociais
+{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+#centro{
+	text-align: center;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 823px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 823px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: relative;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: flex;
+  }
+
+#containerImg{
+	display:flex;
+	flex-diretcion:row;
+	width: 100%;
+	justify-content:space-between;
+}
+.colunaFlex{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+
+.colunaFlex_cards
+{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+.imgComidas{
+	width: 100%;
+	padding:0% 12%;
+}
+.sushi{
+	width:100%;
+}
+.containerCom{
+	width:40%;
+}
+
+#containerImg_cards
+{
+display:flex;
+	flex-diretcion:row;
+	width: 100%;
+	justify-content:space-between;	
+}
+
+
+.contexto_pagina
+{
+	margin-top:120px;
+	margin-left:0px;
+}
+
+div.saiba_mais
+{
+	font-size: 25px;
+	text-align:center;
+	letter-spacing:5px;
+	padding:115px;
+	
+}
+@media screen and (max-width: 800px) {
+ div.saiba_mais
+{
+	font-size: 15px;
+
+}
+}
+
+.bloquinho 
+{
+	list-style: none;
+	width:100%;
+	justify-content:space-between;
+	align-itens:center;
+	font-style:italic;	
+}
+
+.bloquinho li
+{
+	font-size:29px;
+	display:inline-flex;
+	padding:60px 9%;
+}
+@media screen and (max-width: 1250px) {
+ .bloquinho li
+{
+	font-size:26px;
+	display:inline-flex;
+	padding:75px 9%;
+}
+}
+@media screen and (max-width: 750px) {
+ .bloquinho li
+{
+	font-size:23px;
+	display:inline-flex;
+	padding:75px 9%;
+}
+}
+@media screen and (max-width: 450px) {
+ .bloquinho li
+{
+	font-size:20px;
+	display:inline-flex;
+	padding:75px 9%;
+}
+}
+@media screen and (max-width: 250px) {
+ .bloquinho li
+{
+	font-size:17px;
+	display:inline-flex;
+	padding:75px 9%;
+}
+}
+.bloquinho a
+{ 
+	background-color:#C3B9DE;
+	color:white;
+	padding:30px 60px;
+}
+@media screen and (max-width: 1250px) {
+.bloquinho a
+{ 
+	background-color:#C3B9DE;
+	color:white;
+	padding:25px 50px;
+}
+}
+@media screen and (max-width: 750px) {
+.bloquinho a
+{ 
+	background-color:#C3B9DE;
+	color:white;
+	padding:20px 40px;
+}
+}
+@media screen and (max-width: 450px) {
+.bloquinho a
+{ 
+	background-color:#C3B9DE;
+	color:white;
+	padding:15px 30px;
+}
+}
+@media screen and (max-width: 250px) {
+.bloquinho a
+{ 
+	background-color:#C3B9DE;
+	color:white;
+	padding:10px 20px;
+}
+}
+.rosa
+{
+	background-color:#FFE3D1;
+}
+#rosinha{
+	background-color:#FFE3D1;
+}
+.row {
+	width:60%;
+	margin-left:20%;
+    margin-right:20%;
+}
+
+.quem_somos
+{
+	color:#9B5D68;
+	text-decoration:none;
+}
+
+.nomes_comidas
+{
+	color:black;
+	text-decoration:none;
+	font-size:25px;
+	letter-spacing:8px;
+}
+@media screen and (max-width: 1250px) {
+.nomes_comidas
+{
+	color:black;
+	text-decoration:none;
+	font-size:20px;
+	letter-spacing:7px;
+}
+}
+@media screen and (max-width: 750px) {
+.nomes_comidas
+{
+	color:black;
+	text-decoration:none;
+	font-size:15px;
+	letter-spacing:6px;
+}
+}
+@media screen and (max-width: 450px) {
+.nomes_comidas
+{
+	color:black;
+	text-decoration:none;
+	font-size:10px;
+	letter-spacing:4px;
+}
+}
+@media screen and (max-width: 250px) {
+.nomes_comidas
+{
+	color:black;
+	text-decoration:none;
+	font-size:5px;
+	letter-spacing:2px;
+}
+}
+
+.nomes_comidas_principal
+{
+	font-size:30px;
+	letter-spacing:30px;
+	text-align:center;
+	margin-top:90px;
+}
+@media screen and (max-width: 1250px) {
+.nomes_comidas_principal
+{
+	font-size:25px;
+	letter-spacing:30px;
+	text-align:center;
+	margin-top:90px;
+}
+}
+@media screen and (max-width: 750px) {
+.nomes_comidas_principal
+{
+	font-size:20px;
+	letter-spacing:30px;
+	text-align:center;
+	margin-top:90px;
+}
+}
+@media screen and (max-width: 450px) {
+.nomes_comidas_principal
+{
+	font-size:15px;
+	letter-spacing:30px;
+	text-align:center;
+	margin-top:90px;
+}
+}
+@media screen and (max-width: 250px) {
+.nomes_comidas_principal
+{
+	font-size:10px;
+	letter-spacing:30px;
+	text-align:center;
+	margin-top:90px;
+}
+}
+
+
+.azul_claro
+{
+	background-color:#D0E9E5;
+}
+#azulzinho
+{
+	background-color:#D0E9E5;
+}
+.imagem_da_direita
+{
+	margin-left:30%;
+}
+
+.float_left
+{
+	float:left;
+}
+.textos
+{
+	font-size:20px;
+	margin-left:5%;
+	margin-right:5%;
+	letter-spacing:4px;
+	line-height:50px;
+	text-align:center;
+}
+@media screen and (max-width: 1250px) {
+.textos
+{
+	font-size:18px;
+	margin-left:5%;
+	margin-right:5%;
+	letter-spacing:4px;
+	line-height:40px;
+	text-align:center;
+}
+}
+@media screen and (max-width: 750px) {
+.textos
+{
+	font-size:16px;
+	margin-left:5%;
+	margin-right:5%;
+	letter-spacing:4px;
+	line-height:35px;
+	text-align:center;
+}
+}
+@media screen and (max-width: 450px) {
+.textos
+{
+	font-size:14px;
+	margin-left:5%;
+	margin-right:5%;
+	letter-spacing:4px;
+	line-height:30px;
+	text-align:center;
+}
+}
+@media screen and (max-width: 250px) {
+.textos
+{
+	font-size:12px;
+	margin-left:5%;
+	margin-right:5%;
+	letter-spacing:4px;
+	line-height:23px;
+	text-align:center;
+}
+}
+.textos_comidas
+{
+	font-size:20px;
+	letter-spacing:4px;
+	text-align:center;
+	line-height:50px;
+}
+@media screen and (max-width: 1250px) {
+.textos_comidas
+{
+	font-size:18px;
+	letter-spacing:4px;
+	text-align:center;
+	line-height:40px;
+}
+}
+
+@media screen and (max-width: 750px) {
+.textos_comidas
+{
+	font-size:16px;
+	letter-spacing:4px;
+	text-align:center;
+	line-height:35px;
+}
+}
+@media screen and (max-width: 450px) {
+.textos_comidas
+{
+	font-size:14px;
+	letter-spacing:4px;
+	text-align:center;
+	line-height:30px;
+}
+}
+
+@media screen and (max-width: 250px) {
+.textos_comidas
+{
+	font-size:12px;
+	letter-spacing:3px;
+	text-align:center;
+	line-height:23px;
+}
+}
+
+.imagens_restaurantes
+{
+	text-align:center;
+}
+
+.verde_claro
+{
+	background-color:#D7F3C0;
+}
+#verdinho
+{
+	background-color:#D7F3C0;
+}
+
+.mini_frase
+{
+	font-size:20px;
+	background-color:#9B5D68;
+	color:white;
+	height:124px;
+	width:100%;
+	position:relative;
+	bottom:0px;
+	padding-top:40px;
+	float:left;
+	text-align:center;
+}
+@media screen and (max-width: 1250px) {
+.mini_frase
+{
+	font-size:16px;
+	background-color:#9B5D68;
+	color:white;
+	height:124px;
+	width:100%;
+	position:relative;
+	bottom:0px;
+	padding-top:40px;
+	float:left;
+	text-align:center;
+}
+}
+@media screen and (max-width: 750px) {
+.mini_frase
+{
+	font-size:12px;
+	background-color:#9B5D68;
+	color:white;
+	height:124px;
+	width:100%;
+	position:relative;
+	bottom:0px;
+	padding-top:40px;
+	float:left;
+	text-align:center;
+}
+}
+@media screen and (max-width: 450px) {
+.mini_frase
+{
+	font-size:8px;
+	background-color:#9B5D68;
+	color:white;
+	height:124px;
+	width:100%;
+	position:relative;
+	bottom:0px;
+	padding-top:40px;
+	float:left;
+	text-align:center;
+}
+}
+@media screen and (max-width: 250px) {
+.mini_frase
+{
+	font-size:4px;
+	background-color:#9B5D68;
+	color:white;
+	height:124px;
+	width:100%;
+	position:relative;
+	bottom:0px;
+	padding-top:40px;
+	float:left;
+	text-align:center;
+}
+}
+
+.roxo_claro
+{
+	background-color:#D9D1F1;
+}
+#roxinho
+{
+	background-color:#D9D1F1;
+}
+
+.tabela_comidas
+{
+ 	margin:5% 8%
+}
+
+.tabela_comidas td
+{
+	width: 50%;
+	text-align:center;
+	padding-bottom:50px;
+}
+.imagem_principal
+{
+	text-align:center;
+}
+
+.imagem_icone
+{
+	text-align: center;
+	width:100%;
+}
+
+.quem_ilustra
+{
+	text-align:center;
+	font-size: 40px;
+	letter-spacing:35px;
+	padding-top:78px;
+	width:100%;	
+	font-style:italic;
+
+}
+@media screen and (max-width: 1250px) {
+.quem_ilustra
+{
+	text-align:center;
+	font-size: 35px;
+	letter-spacing:35px;
+	padding-top:78px;
+	width:100%;	
+	font-style:italic;
+
+}
+}
+@media screen and (max-width: 750px) {
+.quem_ilustra
+{
+	text-align:center;
+	font-size: 30px;
+	letter-spacing:35px;
+	padding-top:78px;
+	width:100%;	
+	font-style:italic;
+
+}
+}
+@media screen and (max-width: 450px) {
+.quem_ilustra
+{
+	text-align:center;
+	font-size: 25px;
+	letter-spacing:35px;
+	padding-top:78px;
+	width:100%;	
+	font-style:italic;
+
+}
+}
+@media screen and (max-width: 250px) {
+.quem_ilustra
+{
+	text-align:center;
+	font-size: 20px;
+	letter-spacing:35px;
+	padding-top:78px;
+	width:100%;	
+	font-style:italic;
+
+}
+}
+.linha
+{
+	text-align:center;
+	width:100%;
+	padding-top:1%;	
+}
+.foto_perfil
+{
+	text-align:center;
+	width:100%;
+	padding-top:3.5%;	
+}
+
+.img_comidas_principais
+{
+	text-align:center;
+	width:30%;
+	padding-top:3.5%;
+}
+
+.img_restaurantes
+{
+		text-align:center;
+	width:40%;
+	padding-top:3.5%;
+}
+.img_restaurante_dois
+{
+	text-align:center;
+	width:30%;
+	padding-top:3.5%;
+}
+
+
+
+
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+	margin-left:350px;
+	margin-top:50px;
+	
+}
+
+
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+ z-index:0;
+
+}
+
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+	
+}
+
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;	
+}
+
+
+.flip-card-back {
+  background-color: #E2B4BC;
+  color: #262626;
+  transform: rotateY(180deg);
+	
+}
+
+.cardinho
+{
+	width:300px;
+	height:300px;
+}
+
+.cor{
+	background-color:#E2B4BC;
+}
+
+.card_saber_mais
+{
+	background-color:#E2B4BC;
+	font-size:13px;
+}
+.card_direito
+{
+	margin-right:350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.topnav {
+	position:fixed;
+	width:100%;
+  overflow: hidden;
+  background-color:#FEF6E1;
+  display:flex;
+  justify-content:space-between;
+  flex-flow:row wrap;
+	top:0px;
+  	box-shadow: 5px 10px 8px #DCDAD3;
+	z-index:1;
+
+
+}
+#menu{
+	padding-top:1.5%;
+	margin-right:5%;
+	font-family:'Varela Round', sans-serif;
+	
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #9B5D68;
+  text-align: center;
+  padding: 14px 60px;
+  text-decoration: none;
+  font-size: 28px;
+}
+
+.topnav a:hover {
+  color: lightpink;
+}
+
+#buscar
+{
+	font-size:20px;
+	text-decoration:none;
+	color: #9B5D68;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+@media screen and (max-width: 1250px) {
+#buscar
+{
+	font-size:18px;
+	text-decoration:none;
+	color: #9B5D68;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+
+}
+}
+@media screen and (max-width: 750px) {
+#buscar
+{
+	font-size:16px;
+	text-decoration:none;
+	color: #9B5D68;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+
+}
+}
+@media screen and (max-width: 450px) {
+#buscar
+{
+	font-size:14px;
+	text-decoration:none;
+	color: #9B5D68;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+
+}
+}
+@media screen and (max-width: 250px) {
+#buscar
+{
+	font-size:12px;
+	text-decoration:none;
+	color: #9B5D68;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+
+}
+}
+.cabecalho_baixo
+{
+	font-size:20px;
+	text-decoration:none;
+	color: #9B5D68;
+	padding: 0px 60px;
+}
+@media screen and (max-width: 1250px) {
+.cabecalho_baixo
+{
+font-size:18px;
+	text-decoration:none;
+	color: #9B5D68;
+	padding: 0px 60px;
+
+}
+}
+@media screen and (max-width: 750px) {
+.cabecalho_baixo
+{
+font-size:16px;
+	text-decoration:none;
+	color: #9B5D68;
+	padding: 0px 60px;
+
+}
+}
+@media screen and (max-width: 450px) {
+.cabecalho_baixo
+{
+font-size:14px;
+	text-decoration:none;
+	color: #9B5D68;
+	padding: 0px 60px;
+
+}
+}
+@media screen and (max-width: 250px) {
+.cabecalho_baixo
+{
+font-size:12px;
+	text-decoration:none;
+	color: #9B5D68;
+	padding: 0px 60px;
+
+}
+}
+#footer
+{
+	padding-top:60px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+.active img{
+	height:90px;
+	margin-top:1%;
+}
+.redes
+{
+	padding: 80px 20px;
+}
+
+#redes_sociais
+{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+#centro{
+	text-align: center;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 823px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 823px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: relative;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: flex;
+  }
+}
+
+a.skip-main {
+    left:-999px;
+    position:absolute;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    z-index:-999;
+}
+a.skip-main:focus, a.skip-main:active {
+    color: #fff;
+    background-color:#000;
+    left: auto;
+    top: auto;
+    width: 30%;
+    height: auto;
+    overflow:auto;
+    margin: 10px 35%;
+    padding:5px;
+    border-radius: 15px;
+    border:4px solid yellow;
+    text-align:center;
+    font-size:1.2em;
+    z-index:999;
+	}}
